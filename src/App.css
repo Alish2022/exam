@@ -1,0 +1,46 @@
+.wrapper{
+  background-color: black;
+}
+
+.App {
+  margin: auto auto;
+  text-align: center;
+  border: 3px lightskyblue solid;
+  width: 300px;
+  border-radius: 10px;
+}
+
+.number{
+  color: black;
+  font-size: 42px;
+  background-color:lightskyblue ;
+  border-radius: 10px;
+  margin: 15px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.buttons{
+  border: 3px lightskyblue solid;
+  margin: 15px;
+  border-radius: 10px;
+}
+
+.button{
+  background-color:lightskyblue ;
+  font-size: 32px;
+  font-weight: bold;
+  border-radius: 10px;
+  margin: 15px;
+  padding-left: 15px;
+  padding-right: 15px;
+  color: black;
+}
+
+.disabled{
+  background-color: grey;
+}
+
+.red{
+  color: red;
+}
