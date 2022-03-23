@@ -1,5 +1,6 @@
 .wrapper{
   background-color: black;
+  display: flex;
 }
 
 .App {
@@ -11,10 +12,22 @@
 }
 
 .number{
-  color: black;
+  color: lightskyblue;
   font-size: 42px;
-  background-color:lightskyblue ;
+  background-color:black ;
   border-radius: 10px;
+  border: 3px lightskyblue solid;
+  margin: 15px;
+  padding: 15px;
+  font-weight: bold;
+}
+
+.text{
+  color: lightskyblue;
+  font-size: 22px;
+  background-color:black ;
+  border-radius: 10px;
+  border: 3px lightskyblue solid;
   margin: 15px;
   padding: 15px;
   font-weight: bold;
@@ -43,4 +56,33 @@
 
 .red{
   color: red;
+}
+
+input{
+  width: 100px;
+}
+
+.textValue{
+  display: flex;
+  justify-content: space-between;
+}
+
+.setButton{
+  background-color:lightskyblue ;
+  color: black;
+}
+
+.blue{
+  border-color: lightskyblue;
+  text-align: center;
+  font-size: 14px;
+  background-color:white ;
+  border-radius: 10px;
+  border: 3px lightskyblue solid;
+  font-weight: bold;
+  color: black;
+}
+
+.textValue{
+  margin-bottom: 10px;
 }
